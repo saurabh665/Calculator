@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color:rgb(220, 220, 220);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+.grid-user{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr );
+  grid-template-rows: repeat(3,1fr);
+  justify-content: center;
+  
+}
+
+@media screen and (max-width: 768px) {
+.grid-user {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+  }
+}
+
+
+.pic img{
+  text-align: right;
+  border-radius: 50%;
+} 
+.form-control{
+  max-width: 200px;
+  border-radius: 50px;  
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.2);
+  margin: 0 auto; 
+  display: block; 
+  width: 50%; 
+  
+
+}
+
+
