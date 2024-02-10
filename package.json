@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "p",
-=======
-  "name": "respo",
->>>>>>> 0e04dd03cb52d54b9970472a9c8b2080130ea361
   "version": "0.1.0",
   "private": true,
   "dependencies": {
